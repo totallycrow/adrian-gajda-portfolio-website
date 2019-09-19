@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
+      href="https://fonts.googleapis.com/css?family=Barlow+Condensed:100,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
     />
@@ -13,6 +18,47 @@
   </head>
 
   <body>
-    <script src="js/app.js"></script>
+    <div class="container">
+      <!-- Navbar -->
+      <navbar id="main-navbar" class="nav">
+        <div class="nav__wrapper">
+          <ul>
+            <li>Home</li>
+            <li>/</li>
+            <li>Projects</li>
+            <li>/</li>
+            <li>CV</li>
+            <li>/</li>
+            <li>About</li>
+            <li>/</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </navbar>
+
+      <!-- Section: Showcase -->
+
+      <header id="main-showcase" class="showcase">
+        <div class="showcase__content">
+          <h1 class="header-lead">I'm Adrian</h1>
+          <p class="p-lead">
+            the
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["developer", "designer", "marketer"]'
+              >as</span
+            >
+          </p>
+          <div class="showcase__content__btns">
+            <a href="" class="btn btn-main">Work</a>
+            <a href="" class="btn btn-main">CV</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Section: Work -->
+    </div>
   </body>
+  <script src="js/main.js"></script>
 </html>
