@@ -1,0 +1,19 @@
+{
+  "name": "adrian-gajda-portfolio-website",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totallycrow/adrian-gajda-portfolio-website.git"
+  },
+  "author": "Adrian Gajda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/totallycrow/adrian-gajda-portfolio-website/issues"
+  },
+  "homepage": "https://github.com/totallycrow/adrian-gajda-portfolio-website#readme"
+}
