@@ -181,3 +181,56 @@ img {
     margin: 0;
   }
 }
+
+// Section: About Me
+
+.about-me {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5rem;
+
+  &__img {
+    text-align: center;
+  }
+
+  &__img img {
+    border-radius: 50%;
+    width: 60%;
+  }
+}
+
+// Section: Contact
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+
+  &__header {
+    padding: 1rem;
+  }
+
+  &__socials {
+    padding: 2rem 1rem;
+
+    & i {
+      margin: 0 2rem;
+    }
+  }
+}
+
+// Section: Footer
+
+.main-footer {
+  height: 6vh;
+  background: $dark-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  &__content {
+    color: #fff;
+  }
+}

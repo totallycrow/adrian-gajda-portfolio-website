@@ -42,3 +42,12 @@
 .py-3 {
   padding: 3rem 0;
 }
+
+.bottom-line {
+  height: 2px;
+  background: $primary-color;
+  width: 10%;
+  text-align: center;
+  margin: 100px auto 0 auto;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
