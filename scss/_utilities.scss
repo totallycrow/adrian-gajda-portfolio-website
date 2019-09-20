@@ -19,6 +19,10 @@
   font-size: 2rem;
 }
 
+.font-weight-s {
+  font-weight: 300;
+}
+
 .text-primary {
   color: $primary-color;
 }
@@ -41,6 +45,10 @@
 
 .py-3 {
   padding: 3rem 0;
+}
+
+.px-3 {
+  padding: 0 3rem;
 }
 
 .bottom-line {

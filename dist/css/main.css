@@ -14,6 +14,9 @@
 .p-lead {
   font-size: 2rem; }
 
+.font-weight-s {
+  font-weight: 300; }
+
 .text-primary {
   color: #e37e0b; }
 
@@ -31,6 +34,9 @@
 
 .py-3 {
   padding: 3rem 0; }
+
+.px-3 {
+  padding: 0 3rem; }
 
 .bottom-line {
   height: 2px;
@@ -178,6 +184,9 @@ img {
   .about-me__img img {
     border-radius: 50%;
     width: 60%; }
+  .about-me__content p {
+    padding: 1rem 5rem;
+    max-width: 400px; }
 
 .contact-me {
   display: flex;
@@ -187,6 +196,8 @@ img {
   margin-top: 2rem; }
   .contact-me__header {
     padding: 1rem; }
+  .contact-me__header p {
+    padding-right: 10rem; }
   .contact-me__socials {
     padding: 2rem 1rem; }
     .contact-me__socials i {
