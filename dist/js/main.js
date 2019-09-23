@@ -62,3 +62,37 @@ function init() {
   //   Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
+
+// Smooth Scrolling
+$("#main-navbar a, .btn, #myBtn").on("click", function(event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $("html, body").animate(
+      {
+        scrollTop: $(hash).offset().top - 100
+      },
+      800
+    );
+  }
+});
+
+// Scroll top button
+
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.classList.add("btn-top-active");
+  } else {
+    mybutton.classList.remove("btn-top-active");
+  }
+}

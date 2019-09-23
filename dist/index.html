@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,20 +18,23 @@
   </head>
 
   <body>
+    <a href="#top" id="myBtn" class="btn-top" title="Go to top"
+      ><i class="fas fa-arrow-up"></i
+    ></a>
     <div class="container">
       <!-- Navbar -->
       <navbar id="main-navbar" class="nav">
         <div class="nav__wrapper">
           <ul>
-            <li>Home</li>
-            <li>/</li>
-            <li>Projects</li>
-            <li>/</li>
-            <li>CV</li>
-            <li>/</li>
-            <li>About</li>
-            <li>/</li>
-            <li>Contact</li>
+            <li><a href="#top" class="btn-nav">Home</a></li>
+            <li class="separator">/</li>
+            <li><a href="#work" class="btn-nav">Projects</a></li>
+            <li class="separator">/</li>
+            <li><a href="#" class="btn-nav">CV</a></li>
+            <li class="separator">/</li>
+            <li><a href="#about" class="btn-nav">About</a></li>
+            <li class="separator">/</li>
+            <li><a href="#contact" class="btn-nav">Contact</a></li>
           </ul>
         </div>
       </navbar>
@@ -52,7 +55,6 @@
           </p>
           <div class="showcase__content__btns">
             <a href="#work" class="btn btn-main">My Work</a>
-            <!-- <a href="" class="btn btn-main">CV</a> -->
           </div>
         </div>
       </header>
@@ -61,25 +63,99 @@
       <section id="work" class="text-center py-3">
         <div class="work__container">
           <h2 class="header-lead-m py-3">
-            My <span class="text-primary">Projects</span>
+            featured<span class="text-primary">Projects</span>
           </h2>
           <div class="work__container__items">
             <div class="work__container__items__item">
               <div class="work__container__items__item__item-img">
-                <img src="img/item9.jpg" alt="" />
+                <img src="img/memories-theme-conquer-clone.jpg" alt="" />
               </div>
               <div class="work__container__items__item__item-text">
                 <div class="work__container__items__item__item-text-wrap">
                   <p class="work__container__items__item__item-text-category">
-                    Design
+                    <span class="category cat-design">webdev</span>
                   </p>
                   <h2 class="work__container__items__item__item-text-title">
                     Conquer Theme Clone
                   </h2>
+                  <div class="work__container__items__item__item-buttons">
+                    <a
+                      href="https://totallycrow.github.io/voyage-prework-tier1-website/"
+                      class="btn btn-project"
+                      target="_blank"
+                      >Live Demo</a
+                    >
+                    <a
+                      href="https://github.com/totallycrow/voyage-prework-tier1-website"
+                      class="btn btn-project"
+                      target="_blank"
+                      >View Code</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
             <div class="work__container__items__item">
+              <div class="work__container__items__item__item-img">
+                <img
+                  src="img/working-wikily-wordpress-seo-project.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="work__container__items__item__item-text">
+                <div class="work__container__items__item__item-text-wrap">
+                  <p class="work__container__items__item__item-text-category">
+                    <span class="category">Wordpress / SEO</span>
+                  </p>
+                  <h2 class="work__container__items__item__item-text-title">
+                    Affiliate Website
+                  </h2>
+                  <div class="work__container__items__item__item-buttons">
+                    <a
+                      href="https://workingwikily.net/"
+                      class="btn btn-project"
+                      target="_blank"
+                      >Live Demo</a
+                    >
+                    <!-- <a href="#" class="btn btn-project">View Code</a>
+                    <a href="#" class="btn btn-project">Read More</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work__container__items__item">
+              <div class="work__container__items__item__item-img">
+                <img
+                  src="img/rock-paper-scissors-js-project-small.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="work__container__items__item__item-text">
+                <div class="work__container__items__item__item-text-wrap">
+                  <p class="work__container__items__item__item-text-category">
+                    <span class="category">Design</span>
+                  </p>
+                  <h2 class="work__container__items__item__item-text-title">
+                    Rock Paper Scissors App
+                  </h2>
+                  <div class="work__container__items__item__item-buttons">
+                    <a
+                      href="https://totallycrow.github.io/rock-paper-scissors/"
+                      class="btn btn-project"
+                      target="_blank"
+                      >Live Demo</a
+                    >
+                    <a
+                      href="https://github.com/totallycrow/rock-paper-scissors"
+                      class="btn btn-project"
+                      target="_blank"
+                      >View Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="work__container__items__item">
               <div class="work__container__items__item__item-img">
                 <img src="img/item9.jpg" alt="" />
               </div>
@@ -93,37 +169,7 @@
                   </h2>
                 </div>
               </div>
-            </div>
-            <div class="work__container__items__item">
-              <div class="work__container__items__item__item-img">
-                <img src="img/item9.jpg" alt="" />
-              </div>
-              <div class="work__container__items__item__item-text">
-                <div class="work__container__items__item__item-text-wrap">
-                  <p class="work__container__items__item__item-text-category">
-                    Design
-                  </p>
-                  <h2 class="work__container__items__item__item-text-title">
-                    Conquer Theme Clone
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div class="work__container__items__item">
-              <div class="work__container__items__item__item-img">
-                <img src="img/item9.jpg" alt="" />
-              </div>
-              <div class="work__container__items__item__item-text">
-                <div class="work__container__items__item__item-text-wrap">
-                  <p class="work__container__items__item__item-text-category">
-                    Design
-                  </p>
-                  <h2 class="work__container__items__item__item-text-title">
-                    Conquer Theme Clone
-                  </h2>
-                </div>
-              </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -135,17 +181,21 @@
         </div>
         <div class="about-me__content">
           <h2 class="header-lead-m">
-            about
-            <span class="text-primary">me</span>
+            about<span class="text-primary">Me</span>
           </h2>
           <p class="p-lead font-weight-s">
             I'm Adrian, and I'm a junior web developer with a background in
             digital marketing (SEO & Marketplaces). Currently living in London,
             UK.
           </p>
+          <div class="about-me__content__btn">
+            <a href="#" class="btn btn-main">Read More</a>
+          </div>
         </div>
       </section>
       <div class="bottom-line"></div>
+
+      <!-- Section: CV -->
 
       <!-- Section: Contact -->
       <section id="contact" class="contact-me">
@@ -153,11 +203,24 @@
           <p>Contact</p>
         </div>
         <p class="p-lead">
-          Let's <span class="text-primary">get in touch.</span>
+          Let's
+          <a href="mailto:adrian.gajda@hotmail.com" class="text-primary"
+            >get in touch.</a
+          >
         </p>
         <div class="contact-me__socials">
-          <i class="fab fa-github fa-5x"></i>
-          <i class="fab fa-linkedin-in fa-5x"></i>
+          <a
+            href="https://github.com/totallycrow"
+            class="btn-social"
+            target="_blank"
+            ><i class="fab fa-github fa-5x"></i
+          ></a>
+          <a
+            href="https://linkedin.com/in/adrian-gajda/"
+            class="btn-social"
+            target="_blank"
+            ><i class="fab fa-linkedin-in fa-5x"></i
+          ></a>
         </div>
       </section>
     </div>
@@ -168,5 +231,10 @@
       </div>
     </footer>
   </body>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
   <script src="js/main.js"></script>
 </html>

@@ -33,9 +33,51 @@
   text-decoration: none;
 
   &-main {
-    border-bottom: 1px solid $dark-color;
     margin-top: 2rem;
     font-size: 1.5rem;
+    color: $dark-color;
+    border-bottom: 1px solid $dark-color;
+    transition: border-bottom 0.7s ease-in;
+    transition: 0.7s ease-in;
+
+    &:hover {
+      border-bottom: 1px solid $primary-color;
+      color: $primary-color;
+    }
+  }
+
+  &-nav {
+    border-bottom: 1px solid transparent;
+    font-size: $nav-font-size;
+
+    color: $dark-color;
+
+    transition: color 0.4s ease-in-out;
+    transition: border-bottom 0.3s ease-in;
+
+    &:hover {
+      color: $primary-color;
+      border-bottom: 1px solid $primary-color;
+    }
+  }
+
+  &-social {
+    color: $dark-color;
+    transition: color 0.4s ease-in-out;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  &-project {
+    color: #d9d9d9;
+    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    &:hover {
+      background-color: #cc6d00;
+    }
   }
 }
 
@@ -58,4 +100,42 @@
   text-align: center;
   margin: 100px auto 0 auto;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+// Scroll to top button
+.btn-top {
+  justify-content: center;
+  opacity: 0;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: $primary-color;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 10px;
+  transition: opacity 0.5s linear;
+}
+
+.btn-top-active {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+
+.btn-top:hover {
+  background-color: #cc6d00;
+}
+
+.btn-display-none {
+  display: none;
+  transition: display 0.3s ease-in-out;
+}
+.btn-display-block {
+  display: block;
+  transition: display 0.3s ease-in-out;
 }
