@@ -1,0 +1,184 @@
+// iPad Pro
+@media screen and (max-width: 1025px) {
+  .nav {
+    max-width: 100%;
+    height: 5vh;
+    position: fixed;
+    font-size: 2rem;
+    right: 0%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav__wrapper {
+    & ul {
+      font-size: 1.5rem;
+      margin: auto;
+    }
+
+    & ul li {
+      font-size: 2rem;
+    }
+
+    & ul li a {
+      font-size: 2rem;
+    }
+  }
+  .separator {
+    display: none;
+  }
+  .showcase {
+    height: 40vh;
+
+    &__content {
+      margin-top: 10rem;
+      padding: 5rem 1rem;
+    }
+  }
+  .work__container__items {
+    grid-template-columns: 1fr;
+    width: 70%;
+    margin: auto;
+  }
+
+  .about-me {
+    grid-template-columns: 1fr;
+
+    &__img img {
+      width: 30%;
+    }
+    &__content {
+      text-align: center;
+    }
+
+    &__content p {
+      text-align: center;
+      max-width: 100%;
+      padding: 1rem 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .bottom-line {
+    margin: 2rem auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav__wrapper {
+    & ul {
+      font-size: 1rem;
+      margin: auto;
+    }
+
+    & ul li {
+      font-size: 1rem;
+    }
+
+    & ul li a {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 0;
+  }
+  .showcase {
+    height: 90vh;
+
+    &__content {
+      margin-top: 5rem;
+      padding: 0 0;
+    }
+  }
+  .nav {
+    height: 10vh;
+    position: fixed;
+    font-size: 0.8rem;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .nav__wrapper {
+    padding: 0.8rem 0;
+    font-size: 0.5rem;
+
+    & ul {
+      font-size: 0.5rem;
+      margin: auto;
+    }
+
+    & ul li {
+      font-size: 1rem;
+    }
+
+    & ul li a {
+      font-size: 1rem;
+    }
+  }
+  .header-lead {
+    font-size: 3rem;
+  }
+  .p-lead {
+    font-size: 1.5rem;
+  }
+  .header-lead-m {
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .showcase {
+    height: 95vh;
+
+    &__content {
+      margin-top: 5rem;
+      padding: 0 0;
+    }
+  }
+  .nav {
+    height: 10vh;
+    position: fixed;
+    font-size: 0.8rem;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .nav__wrapper {
+    padding: 0.8rem 0;
+    font-size: 0.5rem;
+
+    & ul {
+      font-size: 0.5rem;
+      margin: auto;
+    }
+
+    & ul li {
+      font-size: 1rem;
+    }
+
+    & ul li a {
+      font-size: 1rem;
+    }
+  }
+  .header-lead {
+    font-size: 3rem;
+  }
+  .p-lead {
+    font-size: 1.5rem;
+  }
+  .header-lead-m {
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+}
