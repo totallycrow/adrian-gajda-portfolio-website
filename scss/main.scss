@@ -252,6 +252,30 @@ img {
   }
 }
 
+// Section: CV
+
+.cv {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+  font-size: 1.5rem;
+
+  &__content__download {
+    padding: 0 2rem;
+
+    width: 300px;
+    margin: auto;
+
+    & a {
+      display: inline-block;
+      padding: 0 2rem 1rem 2rem;
+    }
+    & i {
+      margin-right: 1rem;
+    }
+  }
+}
+
 // Section: Contact
 .contact-me {
   display: flex;
@@ -290,4 +314,10 @@ img {
   &__content {
     color: #fff;
   }
+}
+
+// About Page
+
+.about {
+  height: 100vh;
 }
