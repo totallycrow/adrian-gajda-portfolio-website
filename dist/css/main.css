@@ -386,7 +386,9 @@ img {
   .nav__wrapper ul li {
     font-size: 1rem; }
   .nav__wrapper ul li a {
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  .p-lead {
+    margin-bottom: 1.5rem; } }
 
 @media screen and (max-width: 500px) {
   .container {
