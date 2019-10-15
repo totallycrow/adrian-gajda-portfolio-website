@@ -4,7 +4,7 @@
 This website is my personal portfolio website.
 
 ## Techstack 
-HTML/CSS/JS/Sass
+HTML/CSS/JS/jQuery/Sass
 
 ## Pre-requisites 
 You need Node.js installed on your machine in order to run sass.
